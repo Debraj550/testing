@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org",
+  "@type": "3DModel",
+  "name": "Example 3D Model",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "12345-abc",
+    "value": "3DModel-001"
+  },
+  "url": "https://example.com/models/3dmodel-001",
+  "creator": {
+    "@type": "Person",
+    "name": "John Doe"
+  },
+  "dateCreated": "2023-09-01",
+  "dateModified": "2023-09-10",
+  "encodingFormat": "application/x-obj",
+  "contentUrl": "https://example.com/models/3dmodel-001.obj",
+  "additionalType": "https://schema.org/CreativeWork",
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "latitude",
+      "value": 37.7749
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "longitude",
+      "value": -122.4194
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "elevation",
+      "value": 30
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "xCoordinate",
+      "value": 100
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "yCoordinate",
+      "value": 200
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "zCoordinate",
+      "value": 300
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "roll",
+      "value": 0
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "pitch",
+      "value": 15
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "yaw",
+      "value": 30
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "volume",
+      "value": 1000,
+      "unitCode": "CMT"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "scaleX",
+      "value": 1.0
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "scaleY",
+      "value": 1.0
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "scaleZ",
+      "value": 1.0
+    }
+  ],
+  "description": "This is an example of a 3D model created for demonstration purposes."
+}
