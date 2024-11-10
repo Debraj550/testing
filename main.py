@@ -37,13 +37,9 @@ def read_data():
 
 
 async def monitor_data():
-    prev_data = None
-    while True:
-        current_data = read_data()
-        if current_data != prev_data:
-            await conmanager.chorano(current_data)
-            prev_data = current_data
-        await asyncio.sleep(1)
+    current_data = read_data()   
+    await conmanager.chorano(current_data)
+    await asyncio.sleep(1)
 
 
 # @asynccontextmanager
@@ -54,7 +50,6 @@ async def monitor_data():
 #     finally:
 #         task.cancel()
 #         await task
-
 
 
 @app.websocket("/ws")
